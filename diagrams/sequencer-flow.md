@@ -1,6 +1,6 @@
 # Sequencer flow (src/osa/scripts/sequencer.py)
 
-```mermaid
+mermaid
 flowchart TD
     A[main()] --> B[sequencer_cli_parsing()]
     B --> C{options.verbose?}
